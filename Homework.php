@@ -26,11 +26,11 @@ if (mysqli_query($conn,$sqlCreateTableCustomers) === TRUE) {
 
 // Thêm 5 khách hàng mới vào bảng "customers"
 $sqlAddCustomers = "INSERT INTO customers (id, name, email, phone) VALUES
-    (1, 'Do Nguyen Thuy Trang', 'thuytrang@gmail.com', '123456789'),
-    (2, 'Do Nguyen Thuy T', 'thuythuy@gmail.com', '987654321'),
-    (3, 'Do Nguyen Thuy R', 'dodo@gmail.com', '456789123'),
-    (4, 'Do Nguyen Thuy A', 'nguyennguyen@gmail.com', '789123456'),
-    (5, 'Do Nguyen Thuy N', 'changchang@gmail.com', '321654987')";
+    (1, 'Nguyen Hai Yen', 'haiyengay@gmail.com', '123456789'),
+    (2, 'Nguyen Hai T', 'haiyen711@gmail.com', '987654321'),
+    (3, 'Nguyen Hai R', 'beins0711@gmail.com', '456789123'),
+    (4, 'Nguyen Hai A', 'haiyen2002@gmail.com', '789123456'),
+    (5, 'Nguyen Hai N', 'haiyen071102@gmail.com', '321654987')";
 
 if (mysqli_query($conn, $sqlAddCustomers) === TRUE) {
     echo "Thêm khách hàng thành công.<br>";
